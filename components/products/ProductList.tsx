@@ -1,5 +1,5 @@
 import { Grid } from "@mui/material"
-import { IProduct } from "lucia/interfaces"
+import { IProduct } from "../../interfaces"
 import { FC } from "react"
 import { ProductCard } from "./ProductCard"
 
