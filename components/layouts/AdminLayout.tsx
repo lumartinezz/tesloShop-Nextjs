@@ -7,11 +7,10 @@ interface Props {
     title: string
     subTitle: string
     icon?: JSX.Element
-    children?: React.ReactNode
 }
 
 
-export const AdminLayout: React.FC<Props> = ({children, title, subTitle, icon}) => {
+export const AdminLayout = ({children, title, subTitle, icon} : React.PropsWithChildren<Props>) => {
   return (
     <>
     <nav>
